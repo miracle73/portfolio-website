@@ -9,7 +9,7 @@ import { AiOutlineGithub } from 'react-icons/ai'
 const home = () => {
     return (
 
-        <div className="p-4 w-1/3 flex flex-col items-center m-auto ">
+        <div className=" w-1/3 flex flex-col items-center mx-auto m-40 ">
             <img src={picture} className="rounded-full w-20 h-20" alt="" />
             <h1 className="font-bold text-2xl">Nwadiaro Miracle</h1>
             <p className="text-base">Full stack software developer</p>

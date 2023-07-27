@@ -1,15 +1,19 @@
 import React from 'react'
 import Home from './Home'
 import About from './About'
+import Services from './Services'
 
 const Section = () => {
     return (
-        <div className=" h-full w-5/6 mx-auto flex flex-col p-4 justify-center bg-slate-400">
-            <div className="h-full mt-32 mb-10">
+        <div className=" h-full w-5/6 mx-auto flex flex-col p-4 justify-center ">
+            <div className="h-screen">
                 <Home />
             </div>
-            <div className="h-full mb-20 mt-10 ">
+            <div className="h-screen ">
                 <About />
+            </div>
+            <div className="h-screen">
+                <Services />
             </div>
 
         </div>
