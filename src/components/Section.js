@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home'
 import About from './About'
 import Services from './Services'
+import Experience from './Experience'
 
 const Section = () => {
     return (
@@ -14,6 +15,9 @@ const Section = () => {
             </div>
             <div className="h-screen">
                 <Services />
+            </div>
+            <div className="h-screen">
+                <Experience />
             </div>
 
         </div>
