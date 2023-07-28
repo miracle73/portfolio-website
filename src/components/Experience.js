@@ -11,7 +11,7 @@ const Experience = () => {
             </div>
 
             <div className=" w-full p-4  flex items-center justify-between">
-                <div className="p-2 w-1/4 rounded-xl bg-orange-300">
+                <div className="p-2 w-1/4 rounded-xl shadow-2xl">
                     <div className="flex items-center">
                         <img src={DevCareer} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -29,7 +29,7 @@ const Experience = () => {
                     </div>
 
                 </div>
-                <div className="p-2 rounded-xl w-1/4 bg-slate-400 ">
+                <div className="p-2 rounded-xl w-1/4  shadow-2xl ">
                     <div className="flex items-center">
                         <img src={UsefulPDF} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -37,7 +37,7 @@ const Experience = () => {
                             <p className="text-center py-2 font-sans">Fullstack developer Intern</p>
                         </div>
                     </div>
-                    <div className="font-serif pl-2">
+                    <div className="font-serif pl-2 ">
                         <div className="text-sm py-1">Jan 2022 - May 2022</div>
                         <div className="py-1">
                             I was part of the team that contributed to the development of UsefulPDF, an Electronic signature and document generation software.
@@ -45,7 +45,7 @@ const Experience = () => {
                         <div className="py-1 font-medium">Skills: Laravel · PhpMyAdmin · MySQL · PHP</div>
                     </div>
                 </div>
-                <div className=" p-2 rounded-xl w-1/4 bg-yellow-300">
+                <div className=" p-2 rounded-xl w-1/4 shadow-2xl">
                     <div className="flex items-center">
                         <img src={Veedez} alt="" className="h-14 w-14" />
                         <div className="pl-2">

@@ -10,7 +10,7 @@ const home = () => {
     return (
 
         <div className=" w-1/3 flex flex-col items-center mx-auto m-40 ">
-            <img src={picture} className="rounded-full w-20 h-20" alt="" />
+            <img src={picture} className="rounded-full w-40 h-40" alt="" />
             <h1 className="font-bold text-2xl">Nwadiaro Miracle</h1>
             <p className="text-base">Full stack software developer</p>
             <div className="flex w-full justify-center">

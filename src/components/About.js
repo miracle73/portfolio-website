@@ -11,7 +11,7 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="w-2/3 flex justify-center flex-col items-center bg-gray-300 p-6 rounded-xl">
+            <div className="w-2/3 flex justify-center flex-col items-center shadow-2xl p-6 rounded-xl">
 
                 <p className="p-2 ">
                     A highly driven and resourceful software developer and an engineering graduate with a passion for leveraging technology to improve the way we live to make the world a better place.
