@@ -1,7 +1,19 @@
 import React from 'react'
 import picture from '../images/picture.jpg'
+import { saveAs } from 'file-saver';
 
 const About = () => {
+    const pdfPath = process.env.PUBLIC_URL + '/Files/CV(16).pdf';
+    const handleDownload = () => {
+        // Fetch the PDF file using the provided path (replace 'path/to/your/pdf.pdf' accordingly).
+        fetch(pdfPath)
+            .then(response => response.blob())
+            .then(blob => {
+                // Save the PDF file using FileSaver.js
+                saveAs(blob, 'CV(16).pdf');
+            })
+            .catch(error => console.log('Error downloading the PDF:', error));
+    };
     return (
         <div className="w-2/3 flex h-screen items-center m-auto">
             <div className="w-1/3">
@@ -19,7 +31,7 @@ const About = () => {
                     I also write technical articles that simplifies complex concepts for audiences of varying technical backgrounds. I try as much as possible to use my skills to bridge the gap between
                     technical complexity and user-friendly experiences.
                 </p>
-                <div className="p-2 rounded-3xl text-center bg-orange-500 text-white w-2/3 ">Download CV</div>
+                <div className="p-2 rounded-3xl text-center bg-orange-500 text-white w-2/3 " onClick={handleDownload}>Download CV</div>
 
             </div>
 
