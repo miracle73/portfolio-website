@@ -3,6 +3,8 @@ import LandingPage from './LandingPage'
 import About from './About'
 import Services from './Services'
 import Experience from './Experience'
+import Contacts from './Contacts'
+import Skills from './Skills'
 
 
 const Section = () => {
@@ -20,7 +22,12 @@ const Section = () => {
             <div className="h-screen">
                 <Experience />
             </div>
-
+            <div className="h-screen">
+                <Skills />
+            </div>
+            <div className="h-screen">
+                <Contacts />
+            </div>
         </div>
     )
 }
