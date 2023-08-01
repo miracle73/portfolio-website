@@ -31,7 +31,7 @@ const About = () => {
                     I also write technical articles that simplifies complex concepts for audiences of varying technical backgrounds. I try as much as possible to use my skills to bridge the gap between
                     technical complexity and user-friendly experiences.
                 </p>
-                <div className="p-2 rounded-3xl text-center bg-orange-500 text-white w-2/3 " onClick={handleDownload}>Download CV</div>
+                <div className="p-2 rounded-3xl text-center bg-orange-500 text-white w-2/3 cursor-pointer " onClick={handleDownload}>Download CV</div>
 
             </div>
 
