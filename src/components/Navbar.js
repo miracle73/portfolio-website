@@ -5,6 +5,7 @@ import { MdInsertComment } from 'react-icons/md'
 import { BsPersonAdd } from 'react-icons/bs'
 import { MdWorkHistory } from 'react-icons/md'
 import { AiOutlineCopyright } from 'react-icons/ai'
+import { GiSkills } from 'react-icons/gi'
 
 const Navbar = () => {
     return (
@@ -14,6 +15,7 @@ const Navbar = () => {
                 < BsPersonAdd className="h-6 w-6" />
                 < BiSolidContact className="h-6 w-6" />
                 < MdWorkHistory className="h-6 w-6" />
+                < GiSkills className="h-6 w-6" />
                 < MdInsertComment className="h-6 w-6" />
 
             </div>
