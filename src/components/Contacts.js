@@ -22,15 +22,15 @@ const Contacts = () => {
     };
     return (
         <div className="h-full w-full flex flex-col justify-center items-center">
-            <h1 className="text-center text-2xl font-bold">Get In Touch</h1>
-            <h3 className="text-center text-2xl mb-8 font-semibold">Lets talk about everything</h3>
-            <form className=" w-1/2 flex flex-col items-center p-4 " ref={form} onSubmit={sendEmail}>
+            <h1 className="text-center text-2xl mb-2 md:mb-0 font-bold">Get In Touch</h1>
+            <h3 className="text-center px-3 md:px-0 text-2xl md:mb-8 mb-4 font-semibold">Lets talk about everything</h3>
+            <form className=" md:w-1/2 w-full flex flex-col items-center p-4 " ref={form} onSubmit={sendEmail}>
 
                 <input className="border w-2/3 p-1 m-2 rounded-lg shadow-2xl" type="text" id="name" name="name" placeholder="Insert your name" value={data.name} onChange={(e) => setData(prev => ({ ...prev, [e.target.name]: e.target.value }))} />
                 <input className="border w-2/3  p-1 m-2 rounded-lg shadow-2xl" type="email" id="email" name="email" placeholder="Insert your email" value={data.email} onChange={(e) => setData(prev => ({ ...prev, [e.target.name]: e.target.value }))} />
                 <input className="border w-2/3 p-1 m-2 rounded-lg shadow-2xl" type="text" id="subject" name="subject" placeholder="Subject of the mail" value={data.subject} onChange={(e) => setData(prev => ({ ...prev, [e.target.name]: e.target.value }))} />
                 <textarea className="border w-2/3 m-2 rounded-lg shadow-2xl" id="message" rows="6" name="message" placeholder="Write your message" value={data.message} onChange={(e) => setData(prev => ({ ...prev, [e.target.name]: e.target.value }))} />
-                <button className="bg-orange-500 rounded-lg w-1/3 p-1 m-1 text-white" onClick={sendEmail}>Send Message</button>
+                <button className="bg-orange-500 rounded-xl lg:w-1/3 w-1/2 p-1 m-1 text-white" onClick={sendEmail}>Send Message</button>
             </form>
 
         </div>

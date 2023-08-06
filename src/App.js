@@ -51,22 +51,22 @@ const App = () => {
 
       </div>
       <div className=" h-full w-5/6 mx-auto flex flex-col p-4 justify-center ">
-        <div className="h-screen" id="home">
+        <div className="h-full md:h-screen py-20 md:py-0" id="home">
           <LandingPage />
         </div>
-        <div className="h-screen" id="about">
+        <div className="h-full md:h-screen py-20 md:py-0" id="about">
           <About />
         </div>
-        <div className="h-screen" id="services">
+        <div className="h-full md:h-screen py-20 md:py-0" id="services">
           <Services />
         </div>
-        <div className="h-screen" id="experience">
+        <div className="h-full md:h-screen py-20 md:py-0" id="experience">
           <Experience />
         </div>
-        <div className="h-screen" id="skills">
+        <div className="h-full md:h-screen py-20 md:py-0" id="skills">
           <Skills />
         </div>
-        <div className="h-screen" id="contact">
+        <div className="h-full md:h-screen py-20 md:py-0" id="contact">
           <Contacts />
         </div>
       </div>

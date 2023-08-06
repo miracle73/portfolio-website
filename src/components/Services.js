@@ -5,28 +5,34 @@ import technicalWriting from '../images/technical writing.png'
 
 const Services = () => {
     return (
-        <div className="h-full w-full  flex flex-col justify-center">
+        <div className="h-full w-full  flex flex-col justify-center border">
             <div>
-                <h1 className="text-center text-4xl font-bold mb-10"> What I do</h1>
+                <h1 className="text-center text-4xl font-bold "> What I do</h1>
             </div>
 
-            <div className=" w-full p-4  flex items-center justify-between">
-                <div className="p-4 w-1/4 rounded-xl bg-orange-300">
-                    <img src={frontend} alt="" className="w-20 h-20 rounded-md mx-auto" />
-                    <h3 className="text-center text-2xl font-bold py-2"> Frontend development</h3>
-                    <p className="text-center py-2 font-sans"> I build and create  digital experiences that blend art and code, bringing imagination to life on the web
+            <div className=" w-full p-4  border  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
+                <div className="p-2  w-5/6 md:w-full  lg:w-3/4 my-5 md:my-0 rounded-xl bg-orange-300 ">
+                    <div className="w-20 h-20  rounded-md mx-auto">
+                        <img src={frontend} alt="" className="object-cover" />
+                    </div>
+                    <h3 className="text-center text-2xl font-bold "> Frontend development</h3>
+                    <p className="text-center  font-sans">  I build and create  digital experiences that blend art and code, bringing imagination to life on the web
                     </p>
                 </div>
-                <div className="p-2 rounded-xl w-1/4 bg-slate-400 ">
-                    <img src={backend} alt="" className="w-20 h-20 rounded-md mx-auto" />
-                    <h3 className="text-center text-2xl font-bold py-2"> Backend development</h3>
-                    <p className="text-center py-2 font-sans">  I build the skeletal framework that powers websites and applications, ensuring seamless functionality and data management behind the scenes
+                <div className="p-2    rounded-xl  w-5/6 md:w-full lg:w-3/4  bg-slate-400 my-5 md:my-0">
+                    <div className="w-20 h-20 rounded-md mx-auto">
+                        <img src={backend} alt="" className="object-cover" />
+                    </div>
+                    <h3 className="text-center text-2xl font-bold  "> Backend development</h3>
+                    <p className="text-center  font-sans">  I build the skeletal framework that powers websites and applications, ensuring seamless functionality and data management behind the scenes
                     </p>
                 </div>
-                <div className=" p-5 rounded-xl w-1/4 bg-yellow-300">
-                    <img src={technicalWriting} alt="" className="w-20 h-20 rounded-md mx-auto" />
-                    <h3 className="text-center text-2xl font-bold pb-2"> Technical writing</h3>
-                    <p className="text-center py-2 font-sans">   I transform complex concepts into clear, concise, and user-friendly documentation, bridging the gap between technology and understanding
+                <div className=" p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 bg-yellow-300 my-5 md:my-0">
+                    <div className="w-20 h-20  rounded-md mx-auto">
+                        <img src={technicalWriting} alt="" className=" object-cover" />
+                    </div>
+                    <h3 className="text-center text-2xl font-bold "> Technical writing</h3>
+                    <p className="text-center  font-sans">   I transform complex concepts into clear, concise, and user-friendly documentation, bridging the gap between technology and understanding
                     </p>
                 </div>
             </div>

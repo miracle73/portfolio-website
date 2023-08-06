@@ -5,13 +5,13 @@ import Veedez from '../images/veedez.jpeg'
 
 const Experience = () => {
     return (
-        <div className="h-full w-full  flex flex-col justify-center">
+        <div className="h-full w-full  flex flex-col justify-center border ">
             <div>
-                <h1 className="text-center text-4xl font-bold mb-10"> Experience</h1>
+                <h1 className="text-center text-4xl font-bold  "> Experience</h1>
             </div>
 
-            <div className=" w-full p-4  flex items-center justify-between">
-                <div className="p-2 w-1/4 rounded-xl shadow-2xl">
+            <div className=" w-full p-4 border  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
+                <div className="p-2 w-5/6   md:w-full lg:w-3/4 my-5 md:my-0 rounded-xl shadow-2xl">
                     <div className="flex items-center">
                         <img src={DevCareer} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -29,7 +29,7 @@ const Experience = () => {
                     </div>
 
                 </div>
-                <div className="p-2 rounded-xl w-1/4  shadow-2xl ">
+                <div className="p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl ">
                     <div className="flex items-center">
                         <img src={UsefulPDF} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -45,7 +45,7 @@ const Experience = () => {
                         <div className="py-1 font-medium">Skills: Laravel · PhpMyAdmin · MySQL · PHP</div>
                     </div>
                 </div>
-                <div className=" p-2 rounded-xl w-1/4 shadow-2xl">
+                <div className=" p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl">
                     <div className="flex items-center">
                         <img src={Veedez} alt="" className="h-14 w-14" />
                         <div className="pl-2">

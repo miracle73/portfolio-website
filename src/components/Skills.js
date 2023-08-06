@@ -2,9 +2,9 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className="h-full w-full flex flex-col justify-center  items-center">
+        <div className="h-full w-full flex flex-col justify-center px-10 md:px-0 items-center">
             <h1 className="text-center text-2xl font-bold mb-8">Skills</h1>
-            <div className="w-2/3 shadow-2xl border-t rounded-md flex flex-col items-center p-4">
+            <div className="w-full md:w-4/5 lg:w-2/3 shadow-2xl rounded-lg flex flex-col items-center p-4">
                 <div className="w-2/3 mb-2">
                     <h3>Nodejs</h3>
                     <div className="w-full h-2 bg-slate-300 rounded-lg">
