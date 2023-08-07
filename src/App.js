@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import LandingPage from './components/LandingPage'
 import About from './components/About'
 import Services from './components/Services'
@@ -22,39 +23,63 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 
 
 const App = () => {
-
+  const [showDiv, setShowDiv] = useState(false)
+  const handleClick = (e) => {
+    e.preventDefault();
+    setShowDiv(prev => !prev)
+  }
   return (
     <div className="relative h-full w-full flex flex-col ">
-      <FontAwesomeIcon icon="fa-solid fa-bars" className="h-6 w-6 md:h-0 md:w-0" > </FontAwesomeIcon>
+      <FontAwesomeIcon icon="fa-solid fa-bars" className="h-6 fixed top-0 left-0 w-6 md:h-0 md:w-0 mt-6 ml-4" onClick={handleClick}> </FontAwesomeIcon>
+      {showDiv && <div className="ml-1 mt-14 fixed top-0 left-0 shadow-2xl rounded-lg p-3 md:w-0 md:h-0">
+        <a href="#home">
+          < AiOutlineHome className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
 
+        <a href="#about" >
+          < BsPersonAdd className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
+        <a href="#services">
+          < BiSolidContact className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
+        <a href="#experience">
+          < MdWorkHistory className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
+        <a href="#skills">
+          < GiSkills className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
+        <a href="#contact">
+          < MdInsertComment className="h-6 w-6 my-2 md:w-0 md:h-0" />
+        </a>
+      </div>}
       <div className="md:fixed md:top-0 md:left-0 md:m-auto md:bottom-0 md:w-20 md:h-full md:border-r md:border-solid md:border-black md:flex md:flex-col md:items-center">
         <div className="md:flex md:flex-col md:items-center md:justify-around md:w-full md:h-1/3 md:my-auto">
           <a href="#home">
-            < AiOutlineHome className="md:h-6 md:w-6" />
+            < AiOutlineHome className="h-0 w-0 md:h-6 md:w-6" />
           </a>
 
           <a href="#about" >
-            < BsPersonAdd className="md:h-6 md:w-6" />
+            < BsPersonAdd className=" h-0 w-0 md:h-6 md:w-6" />
           </a>
           <a href="#services">
-            < BiSolidContact className="md:h-6 md:w-6" />
+            < BiSolidContact className=" h-0 w-0 md:h-6 md:w-6" />
           </a>
           <a href="#experience">
-            < MdWorkHistory className="md:h-6 md:w-6" />
+            < MdWorkHistory className=" h-0 w-0 md:h-6 md:w-6" />
           </a>
           <a href="#skills">
-            < GiSkills className="md:h-6 md:w-6" />
+            < GiSkills className="h-0 w-0 md:h-6 md:w-6" />
           </a>
           <a href="#contact">
-            < MdInsertComment className="md:h-6 md:w-6" />
+            < MdInsertComment className="h-0 w-0 md:h-6 md:w-6" />
           </a>
 
 
 
         </div>
-        <div className="flex items-center justify-between">
+        {/* <div className="md:flex md:items-center md:justify-between ">
           < AiOutlineCopyright /> <span className="ml-1">2023</span>
-        </div>
+        </div> */}
 
 
       </div>
