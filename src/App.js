@@ -11,6 +11,12 @@ import { BsPersonAdd } from 'react-icons/bs'
 import { MdWorkHistory } from 'react-icons/md'
 import { AiOutlineCopyright } from 'react-icons/ai'
 import { GiSkills } from 'react-icons/gi'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+
 
 
 
@@ -19,26 +25,28 @@ const App = () => {
 
   return (
     <div className="relative h-full w-full flex flex-col ">
+      <FontAwesomeIcon icon="fa-solid fa-bars" className="h-6 w-6 md:h-0 md:w-0" > </FontAwesomeIcon>
 
-      <div className="fixed top-0 left-0 m-auto bottom-0 w-20 h-full border-r border-solid border-black flex flex-col items-center">
-        <div className="flex flex-col items-center justify-around w-full h-1/3 my-auto">
+      <div className="md:fixed md:top-0 md:left-0 md:m-auto md:bottom-0 md:w-20 md:h-full md:border-r md:border-solid md:border-black md:flex md:flex-col md:items-center">
+        <div className="md:flex md:flex-col md:items-center md:justify-around md:w-full md:h-1/3 md:my-auto">
           <a href="#home">
-            < AiOutlineHome className="h-6 w-6" />
+            < AiOutlineHome className="md:h-6 md:w-6" />
           </a>
+
           <a href="#about" >
-            < BsPersonAdd className="h-6 w-6" />
+            < BsPersonAdd className="md:h-6 md:w-6" />
           </a>
           <a href="#services">
-            < BiSolidContact className="h-6 w-6" />
+            < BiSolidContact className="md:h-6 md:w-6" />
           </a>
           <a href="#experience">
-            < MdWorkHistory className="h-6 w-6" />
+            < MdWorkHistory className="md:h-6 md:w-6" />
           </a>
           <a href="#skills">
-            < GiSkills className="h-6 w-6" />
+            < GiSkills className="md:h-6 md:w-6" />
           </a>
           <a href="#contact">
-            < MdInsertComment className="h-6 w-6" />
+            < MdInsertComment className="md:h-6 md:w-6" />
           </a>
 
 
@@ -80,3 +88,4 @@ const App = () => {
 }
 
 export default App;
+library.add(fab, fas, far)
