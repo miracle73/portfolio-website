@@ -10,7 +10,7 @@ const LandingPage = () => {
 
     return (
 
-        <div className="md:w-1/3 h-full w-3/4 flex flex-col items-center mx-auto justify-center border ">
+        <div className="md:w-1/3 h-full w-3/4 flex flex-col items-center mx-auto justify-center ">
             <img src={picture} className=" rounded-full w-40 h-40 " alt="" />
             <h1 className="font-bold text-2xl text-center">Nwadiaro Miracle</h1>
             <p className="text-base text-center">Full stack software developer</p>

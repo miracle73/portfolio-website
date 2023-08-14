@@ -15,10 +15,10 @@ const About = () => {
             .catch(error => console.log('Error downloading the PDF:', error));
     };
     return (
-        <div className="h-full w-full flex flex-col items-center  md:grid md:grid-cols-2 md:align-middle md:justify-center md:pt-0 border md:px-4">
-            <div className="md:flex md:flex-col md:items-center border">
+        <div className="h-full w-full flex flex-col items-center  md:grid md:grid-cols-2 md:align-middle md:justify-center md:pt-0 md:px-4">
+            <div className="md:flex md:flex-col md:items-center">
                 <h1 className="text-center text-2xl md:text-4xl font-bold mb-2">About me</h1>
-                <div className=" border">
+                <div className="">
                     <img src={picture} alt="" className="h-28 w-28 mx-auto md:h-40 md:w-40 rounded-full " />
                 </div>
 

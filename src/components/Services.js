@@ -5,12 +5,12 @@ import technicalWriting from '../images/technical writing.png'
 
 const Services = () => {
     return (
-        <div className="h-full w-full  flex flex-col justify-center border">
+        <div className="h-full w-full  flex flex-col justify-center">
             <div>
                 <h1 className="text-center text-4xl font-bold "> What I do</h1>
             </div>
 
-            <div className=" w-full p-4  border  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
+            <div className=" w-full p-4  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
                 <div className="p-2  w-5/6 md:w-full  lg:w-3/4 my-5 md:my-0 rounded-xl bg-orange-300 ">
                     <div className="w-20 h-20  rounded-md mx-auto">
                         <img src={frontend} alt="" className="object-cover" />
