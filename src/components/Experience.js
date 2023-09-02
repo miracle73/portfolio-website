@@ -11,7 +11,7 @@ const Experience = () => {
             </div>
 
             <div className=" w-full p-4  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
-                <div className="p-2 w-5/6   md:w-full lg:w-3/4 my-5 md:my-0 rounded-xl shadow-2xl">
+                <div className="p-2 h-60 md:h-96 xl:h-64 flex flex-col justify-around w-5/6   md:w-full lg:w-3/4 my-5 md:my-0 rounded-xl shadow-2xl">
                     <div className="flex items-center">
                         <img src={DevCareer} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -29,7 +29,7 @@ const Experience = () => {
                     </div>
 
                 </div>
-                <div className="p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl ">
+                <div className="p-2 h-60 md:h-96 xl:h-64 flex flex-col justify-around   rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl ">
                     <div className="flex items-center">
                         <img src={UsefulPDF} alt="" className="h-14 w-14" />
                         <div className="pl-2">
@@ -45,7 +45,7 @@ const Experience = () => {
                         <div className="py-1 font-medium">Skills: Laravel · PhpMyAdmin · MySQL · PHP</div>
                     </div>
                 </div>
-                <div className=" p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl">
+                <div className=" p-2 h-60 md:h-96 xl:h-64 flex flex-col justify-around  rounded-xl w-5/6 md:w-full lg:w-3/4 my-5 md:my-0 shadow-2xl">
                     <div className="flex items-center">
                         <img src={Veedez} alt="" className="h-14 w-14" />
                         <div className="pl-2">

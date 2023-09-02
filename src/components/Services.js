@@ -11,7 +11,7 @@ const Services = () => {
             </div>
 
             <div className=" w-full p-4  flex flex-col items-center md:grid md:grid-cols-3 md:gap-4">
-                <div className="p-2  w-5/6 md:w-full  lg:w-3/4 my-5 md:my-0 rounded-xl bg-orange-300 ">
+                <div className="p-2 h-60 md:h-72 xl:h-60 flex flex-col justify-around  w-5/6 md:w-full  lg:w-3/4 my-5 md:my-0 rounded-xl bg-orange-300 ">
                     <div className="w-20 h-20  rounded-md mx-auto">
                         <img src={frontend} alt="" className="object-cover" />
                     </div>
@@ -19,7 +19,7 @@ const Services = () => {
                     <p className="text-center  font-sans">  I build and create  digital experiences that blend art and code, bringing imagination to life on the web
                     </p>
                 </div>
-                <div className="p-2    rounded-xl  w-5/6 md:w-full lg:w-3/4  bg-slate-400 my-5 md:my-0">
+                <div className="p-2 h-60 md:h-72 xl:h-60 flex flex-col justify-around    rounded-xl  w-5/6 md:w-full lg:w-3/4  bg-slate-400 my-5 md:my-0">
                     <div className="w-20 h-20 rounded-md mx-auto">
                         <img src={backend} alt="" className="object-cover" />
                     </div>
@@ -27,7 +27,7 @@ const Services = () => {
                     <p className="text-center  font-sans">  I build the skeletal framework that powers websites and applications, ensuring seamless functionality and data management behind the scenes
                     </p>
                 </div>
-                <div className=" p-2   rounded-xl w-5/6 md:w-full lg:w-3/4 bg-yellow-300 my-5 md:my-0">
+                <div className=" p-2 h-60 md:h-72 xl:h-60 flex flex-col justify-around   rounded-xl w-5/6 md:w-full lg:w-3/4 bg-yellow-300 my-5 md:my-0">
                     <div className="w-20 h-20  rounded-md mx-auto">
                         <img src={technicalWriting} alt="" className=" object-cover" />
                     </div>
