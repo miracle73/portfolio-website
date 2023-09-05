@@ -12,7 +12,13 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 640px) { ... }
     },
-    extend: {},
+
+    extend: {
+      colors: ({ colors }) => ({
+        dark: '#000000E5',
+
+      }),
+    },
   },
   plugins: [],
 }

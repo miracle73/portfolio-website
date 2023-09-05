@@ -10,7 +10,7 @@ const About = () => {
             .then(response => response.blob())
             .then(blob => {
                 // Save the PDF file using FileSaver.js
-                saveAs(blob, 'CV(16).pdf');
+                saveAs(blob, 'Resume.pdf');
             })
             .catch(error => console.log('Error downloading the PDF:', error));
     };
