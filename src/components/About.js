@@ -3,14 +3,14 @@ import picture from '../images/picture.jpg'
 import { saveAs } from 'file-saver';
 
 const About = () => {
-    const pdfPath = process.env.PUBLIC_URL + '/Files/CV(16).pdf';
+    const pdfPath = process.env.PUBLIC_URL + '/Files/Resume.pdf';
     const handleDownload = () => {
         // Fetch the PDF file using the provided path (replace 'path/to/your/pdf.pdf' accordingly).
         fetch(pdfPath)
             .then(response => response.blob())
             .then(blob => {
                 // Save the PDF file using FileSaver.js
-                saveAs(blob, 'Resume.pdf');
+                saveAs(blob, 'CV.pdf');
             })
             .catch(error => console.log('Error downloading the PDF:', error));
     };
