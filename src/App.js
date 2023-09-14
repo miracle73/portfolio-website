@@ -27,7 +27,7 @@ const App = () => {
   const [showDiv, setShowDiv] = useState(false)
   const [change, setChange] = useState(false)
   const handleClick = (e) => {
-    console.log('good')
+    console.log('')
     e.preventDefault();
     setShowDiv(prev => !prev)
     setChange(true)
