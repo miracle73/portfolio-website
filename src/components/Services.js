@@ -2,6 +2,7 @@ import React from 'react'
 import backend from '../images/backend5.png'
 import frontend from '../images/frontend4.png'
 import technicalWriting from '../images/technical writing.png'
+import mobile from '../images/mobile3.jpeg'
 
 const Services = () => {
     return (
@@ -21,10 +22,10 @@ const Services = () => {
                 </div>
                 <div className="p-2 h-80 md:h-[20rem] xl:h-60 flex flex-col justify-around    rounded-xl  w-5/6 md:w-full lg:w-3/4  bg-slate-400 my-5 md:my-0">
                     <div className="w-20 h-20 rounded-md mx-auto">
-                        <img src={backend} alt="" className="object-cover" />
+                        <img src={mobile} alt="" className="" />
                     </div>
-                    <h3 className="text-center text-2xl font-bold  "> Backend development</h3>
-                    <p className="text-center  font-sans">  I build the skeletal framework that powers websites and applications, ensuring seamless functionality and data management behind the scenes
+                    <h3 className="text-center text-2xl font-bold  "> Mobile development</h3>
+                    <p className="text-center  font-sans"> high-quality, user-friendly apps that meet the needs of their users and achieve the desired business outcomes
                     </p>
                 </div>
                 <div className=" p-2 h-80 md:h-[20rem] xl:h-60 flex flex-col justify-around   rounded-xl w-5/6 md:w-full lg:w-3/4 bg-yellow-300 my-5 md:my-0">

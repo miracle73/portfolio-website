@@ -65,7 +65,24 @@ const Skills = () => {
                         <div className="w-5/6 bg-orange-500 h-full rounded-lg"></div>
                     </div>
                 </div>
-
+                <div className="w-2/3 mb-2">
+                    <h3>Mobile development</h3>
+                    <div className="w-full h-2 bg-slate-300 rounded-lg">
+                        <div className="w-3/4 bg-orange-500 h-full rounded-lg"></div>
+                    </div>
+                </div>
+                <div className="w-2/3 mb-2">
+                    <h3>React Native</h3>
+                    <div className="w-full h-2 bg-slate-300 rounded-lg">
+                        <div className="w-3/4 bg-orange-500 h-full rounded-lg"></div>
+                    </div>
+                </div>
+                <div className="w-2/3 mb-2">
+                    <h3>Redux</h3>
+                    <div className="w-full h-2 bg-slate-300 rounded-lg">
+                        <div className="w-5/6 bg-orange-500 h-full rounded-lg"></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
