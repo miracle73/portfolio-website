@@ -24,8 +24,7 @@ const Experience = () => {
                     <div className="text-sm py-1 font-serif pl-2">Sep 2022 - Present</div>
                     <div className="py-1 font-serif pl-2">
                         am part of the team that is building web and mobile application that enables the
-                        organization to recruit and employ young programmers in various cohort programs with
-                        rigorous assessment, and interviews.
+                        organization to recruit and employ young techies in various cohort programs.
                     </div>
                     <div className="py-1 font-medium font-serif pl-2">Skills: React · ReactNative · Tailwindcss · Javascript · Typescript </div>
 
