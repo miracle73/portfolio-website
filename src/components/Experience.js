@@ -16,16 +16,18 @@ const Experience = () => {
                         <img src={DevCareer} alt="" className="h-14 w-14" />
                         <div className="pl-2">
                             <h3 className="text-center text-2xl font-bold "> DevCareer</h3>
-                            <p className="text-center py-2 font-sans">Backend developer Intern</p>
+                            <p className="text-center py-2 font-sans"></p>
                         </div>
 
                     </div>
 
                     <div className="text-sm py-1 font-serif pl-2">Sep 2022 - Present</div>
                     <div className="py-1 font-serif pl-2">
-                        I was part of the team that contributed to the development of UsefulPDF, an Electronic signature and document generation software.
+                        am part of the team that is building web and mobile application that enables the
+                        organization to recruit and employ young programmers in various cohort programs with
+                        rigorous assessment, and interviews.
                     </div>
-                    <div className="py-1 font-medium font-serif pl-2">Skills: MongoDB · MySQL · Express.js · JavaScript · Node.js</div>
+                    <div className="py-1 font-medium font-serif pl-2">Skills: React · ReactNative · Tailwindcss · Javascript · Typescript </div>
 
 
                 </div>
